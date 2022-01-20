@@ -1,0 +1,211 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navLinks {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(0, 173, 181);
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+main {
+    background-color: rgb(238, 238, 238);
+    padding: 10px;
+    min-height: 100vh;
+
+}
+
+.mainHome {
+    background-image: url(../image/image\ \(13\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 80vh;
+    background-position: center;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(238, 238, 238);
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+}
+
+a:hover {
+    color: rgb(98, 99, 100) !important;
+    transition: 0.5s;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 32px;
+    padding-left: 10px;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(0, 173, 181);
+
+    background-color: rgb(238, 238, 238);
+}
+
+p {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    color: rgb(187, 185, 185);
+    padding-left: 10px;
+
+}
+
+strong {
+    color: rgb(0, 173, 181);
+    font-size: 30px;
+}
+
+footer {
+    background-color: rgb(170, 216, 211);
+    font-style: normal;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+input,
+select {
+    font-family: 'Bebas Neue'cursive;
+}
+
+.div_img {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(238, 238, 238);
+    justify-content: space-evenly;
+    height: auto;
+}
+
+.div__img {
+    height: 400px;
+    width: 500px;
+}
+
+.precioEnvio {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    color: rgb(187, 185, 185);
+    padding-left: 10px;
+    list-style: square;
+    margin: 20px;
+}
+
+form,
+input {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.div__contact {
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+}
+
+.form__textArea {
+    font-family: 'Bebas Neue', cursive;
+    border-radius: 5px;
+}
+
+
+select {
+    font-family: 'Bebas Neue', cursive;
+    border-radius: 5px;
+}
+
+input {
+    background-color: rgb(238, 238, 238);
+    border: 0.1px solid gray;
+    color: rgb(105, 104, 104);
+    font-family: 'Bebas Neue', cursive;
+}
+
+input:hover {
+    color: rgb(0, 173, 181);
+}
+
+.ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.ul li {
+    width: 30%;
+    text-align: center;
+
+}
+
+.ul li a {
+    font-size: 18px;
+    color: rgb(238, 238, 238);
+    text-decoration: none;
+}
+
+.divFoo {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.divFoo h4 {
+    width: 100%;
+}
+
+.navbar-kassia {
+    background-color: rgb(0, 173, 181);
+}
+.formFull{
+    width: 100%;
+}
+@media screen and (min-width:1000px) {
+    .divFoo form {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .divFoo form .formInput {
+       margin: 1px;
+    }
+    .navbar-kassia .nav-item{
+        margin: 0 25px;
+    }
+    .ul li a {
+        font-size: 40px;
+    }
+
+}
+
